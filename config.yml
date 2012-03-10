@@ -1,0 +1,22 @@
+#uCreate by DrAgonmoray
+#Edit settings.worlds (worlds: world1, world3, etc) first to select which worlds uCreate will be active on.
+settings:
+    worlds: world1, world3, etc
+    defaultStackSize: 64
+    flatMapHeight: 3
+general:
+    noDrops: true
+    useBedrock: false
+world:
+    noWeather: true
+    noCreatures: true
+    stopTime: 'off'
+physics:
+    noFireSpread: true
+    noLiquidSpread: false
+    noBlockFall: false
+    noExplosions: true
+commands:
+    clearinv: false
+    itemSpawning: false
+    wool: false

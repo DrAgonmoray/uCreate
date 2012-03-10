@@ -1,0 +1,23 @@
+name: uCreate
+version: 2.2
+main: net.livecraft.DrAgonmoray.uCreate.uCreate
+load: startup
+author: DrAgonmoray
+permissions:
+    ucreate.*:
+        description: Gives access to all uCreate abilities.
+        default: op
+        children:
+            ucreate.notch: true
+            ucreate.itemspawn: true
+            ucreate.wool: true
+            ucreate.clearinv: true
+    ucreate.notch:
+        description: Allows players to use Notch's creative.
+    ucreate.itemspawn:
+        description: Allows players to spawn items with /item.
+    ucreate.wool:
+        description: Allows players to use the /wool command.
+    ucreate.clearinv:
+        description: Allows players to use the /clearinv command.
+        
